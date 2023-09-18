@@ -23,8 +23,7 @@
     "@slidev/types": "0.43.0",
     "codemirror-theme-vars": "0.1.2",
     "prism-theme-vars": "0.2.4",
-    "qrious": "4.0.2",
-    "vite-svg-loader": "4.0.0"
+    "qrious": "4.0.2"
   },
   "devDependencies": {
     "@slidev/cli": "0.43.0",
