@@ -1,0 +1,62 @@
+{
+  "name": "slidev-theme-meetup",
+  "version": "0.1.0",
+  "description": "Dataroots' slidev theme",
+  "homepage": "https://github.com/datarootsio/slidev-theme-dataroots#readme",
+  "license": "MIT",
+  "author": "Murilo Cunha <murilo@dataroots.io>",
+  "repository": "https://github.com/datarootsio/slidev-theme-dataroots.git",
+  "bugs": {
+    "url": "https://github.com/datarootsio/slidev-theme-dataroots.gitissues",
+    "email": "murilo@dataroots.io"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png",
+    "lint": "eslint --ext js --ext ts --ext vue .",
+    "release": "semantic-release"
+  },
+  "dependencies": {
+    "@iconify-json/mdi": "1.1.54",
+    "@slidev/types": "0.43.0",
+    "codemirror-theme-vars": "0.1.2",
+    "prism-theme-vars": "0.2.4",
+    "qrious": "4.0.2",
+    "vite-svg-loader": "4.0.0"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "10.0.4",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "9.0.4",
+    "@semantic-release/npm": "10.0.5",
+    "@semantic-release/release-notes-generator": "11.0.7",
+    "@slidev/cli": "0.43.0",
+    "conventional-changelog-conventionalcommits": "6.1.0",
+    "eslint": "8.48.0",
+    "eslint-plugin-vue": "9.17.0",
+    "playwright-chromium": "1.37.1"
+  },
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.36.4"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Nunito",
+        "title": "Georgia",
+        "mono": "Fira Code"
+      },
+      "hightlighter": "prism"
+    }
+  }
+}
