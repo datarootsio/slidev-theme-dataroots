@@ -33,6 +33,11 @@ export default defineWindiSetup(() => ({
         sans: ['Nunito', 'system-ui', 'sans-serif'],
         title: ['Georgia', 'serif'],
         mono: ['Fira Code', 'ui-monospace'],
+        colors: {
+          primary: "#38b580",
+          secondary: "#445ba7",
+          terminal: "#212121"
+        },
       },
     }
   },
